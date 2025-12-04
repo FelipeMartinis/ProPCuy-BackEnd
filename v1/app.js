@@ -19,7 +19,7 @@ app.use(cors());
 
 
 app.get("/", (req, res) => {
-  res.json({ message: "Deploy a Vercel" });
+  res.send("API funcionando en Render 🚀");
 });
 
 
@@ -32,6 +32,7 @@ app.use(notFoundMiddleware);
 app.use(errorMiddleware);
 
 //app.use(validateObjectIdMiddleware);
+
 
 
 export default app;
