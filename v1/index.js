@@ -19,7 +19,7 @@ router.use("/productos", productosRouter)
 router.use("/usuarios", usuariosRouter)
 router.use("/auth", authRouter)
 
-router.use(authenticate)
+//router.use(authenticate)
 
 
 
